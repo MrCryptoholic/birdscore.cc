@@ -33,7 +33,7 @@
                 </div>
 
                 <div class="flex justify-center">
-                    <h3 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">Easy to use API to pull BirdScore.</h3>
+                    <h3 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">Easy to use API to pull <a href="https://twitterscore.io" target="_blank">TwitterScore</a>.</h3>
                 </div>
 
                 <div class="mt-6">
