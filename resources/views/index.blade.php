@@ -44,19 +44,19 @@
 
 
                                 <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-                                    Elon Musk's BirdScore: <a href="{{ route('birdscore_by_handle', ['handle' => 'elonmusk']) }}" class="group inline-flex items-center hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">
+                                    Elon Musk's TwitterScore: <a href="{{ route('birdscore_by_handle', ['handle' => 'elonmusk']) }}" class="group inline-flex items-center hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">
                                         {{ route('birdscore_by_handle', ['handle' => 'elonmusk']) }}
                                     </a>
                                 </p>
 
                                 <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-                                    Ethereum's BirdScore: <a href="{{ route('birdscore_by_partial_url', ['handle' => 'ethereum']) }}" class="group inline-flex items-center hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">
+                                    Ethereum's TwitterScore: <a href="{{ route('birdscore_by_partial_url', ['handle' => 'ethereum']) }}" class="group inline-flex items-center hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">
                                         {{ route('birdscore_by_partial_url', ['handle' => 'ethereum']) }}
                                     </a>
                                 </p>
 
                                 <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-                                    Binance's BirdScore: <a href="{{ route('birdscore_by_url', ['handle' => 'binance']) }}" class="group inline-flex items-center hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">
+                                    Binance's TwitterScore: <a href="{{ route('birdscore_by_url', ['handle' => 'binance']) }}" class="group inline-flex items-center hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">
                                         {{ route('birdscore_by_url', ['handle' => 'binance']) }}
                                     </a>
                                 </p>
@@ -95,7 +95,7 @@
                                     Simple API, easy to use.
                                 </p>
                                 <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-                                    No Parsing: you get only text (BirdScore)
+                                    No Parsing: you get only text (TwitterScore)
                                 </p>
                                 <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
                                     No sign ups: anonymous, no setup, no maintenance.
@@ -107,7 +107,7 @@
                             <div>
                                 <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">Limitations</h2>
                                 <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-                                    BirdScore API allows only 100 requests per minute
+                                    TwitterScore API allows only 100 unique requests per minute
                                 </p>
                             </div>
                         </div>

@@ -15,9 +15,9 @@ To get TwitterScore for any TwitterAccount look at examples below 👇
 * Ethereum's TwitterScore: [https://birdscore.cc/twitter.com/ethereum](https://birdscore.cc/twitter.com/ethereum)
 * Binance's TwitterScore: [https://birdscore.cc/https://twitter.com/binance](https://birdscore.cc/https://twitter.com/binance)
 
-Pay attention that you can get TwitterScore by sending: twitter handle, or twitter link with and without `https://`.
+Pay attention that you can get TwitterScore by sending twitter handle, or twitter link with and without `https://`.
 
-To access TwitterScore date from your Google Sheets use: `=IMPORTDATA("https://birdscore.cc/elonmusk")`.
+To access TwitterScore inside your Google Sheets use: `=IMPORTDATA("https://birdscore.cc/elonmusk")`.
 
 ## Why
 

@@ -18,11 +18,11 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::middleware('throttle:100,1')->get('/{handle}', [BirdScoreController::class, 'score'])
+Route::middleware('throttle:5000,1')->get('/{handle}', [BirdScoreController::class, 'score'])
     ->name('birdscore_by_handle');
 
-Route::middleware('throttle:100,1')->get('/twitter.com/{handle}', [BirdScoreController::class, 'score'])
+Route::middleware('throttle:5000,1')->get('/twitter.com/{handle}', [BirdScoreController::class, 'score'])
     ->name('birdscore_by_partial_url');
 
-Route::middleware('throttle:100,1')->get('/https://twitter.com/{handle}', [BirdScoreController::class, 'score'])
+Route::middleware('throttle:5000,1')->get('/https://twitter.com/{handle}', [BirdScoreController::class, 'score'])
     ->name('birdscore_by_url');
