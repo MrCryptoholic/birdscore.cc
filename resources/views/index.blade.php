@@ -107,7 +107,7 @@
                             <div>
                                 <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">Limitations</h2>
                                 <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-                                    TwitterScore API allows only 100 unique requests per minute
+                                    TwitterScore API allows only 100 requests per minute. However, it is highly mitigated by caching.
                                 </p>
                             </div>
                         </div>
